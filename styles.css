@@ -1,4 +1,29 @@
 /* your code */
+table{
+	
+	border-collapse:collapse;
+	width:100%;
+}
+
+
 thead{
 	background-color:navy;
+	text-align:left;
+	color:white;
+}
+
+tr:nth-child(even){
+	background-color: #D6EEEE;
+}
+
+th{
+	
+	padding:8px;
+	border:hidden;
+}
+
+td{
+	
+	padding:8px;
+	border:hidden;
 }
